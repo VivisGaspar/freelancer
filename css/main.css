@@ -101,6 +101,14 @@ textarea {
   margin: 0 10px;
 }
 
+.nav-link a {
+  transition: 0.5s;
+}
+.nav-link a:hover {
+  color: #18bc9c;
+
+}
+
 .start-title {
   font-size: 32px;
 }
