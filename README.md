@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido para o Bootcamp da Laboratoria com o objetivo de recriar o Layout Web **Freelancer** usando apenas os recursos do HTML e CSS.
 
-Foram utilizadas as "<tag>" semânticas do HTML e descrevendo os elementos no CSS para dar estilo a página web.
+Foram utilizados os elementos semânticos do HTML junto com interação do CSS através de um modelo de Layout oferecido.
 
 ### Resultado Layout
 
