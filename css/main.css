@@ -1,3 +1,225 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid black;
+}
+
+form {
+  text-align: left;
+  padding-left: 40px;
+  color: gray;
+}
+
+input,
+textarea {
+  width: 50%;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 1px solid gainsboro;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+}
+
+.container-color {
+  background-color:#18bc9c;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container-color hr {
+  border-color: white;
+}
+
+.container-color h2,
+.container-color p {
+  color: white;
+  line-height: 1.5;
+}
+
+.main {
+  margin-top: 65px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px;
+  text-align: center;
+}
+
+.nav-principal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  background-color: #2c3e50;
+}
+
+.nav-principal .container {
+  display: flex;
+}
+
+.nav-principal .content {
+  padding: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-principal .nav-principal-anchor {
+  font-size: 21px;
+}
+
+.nav-principal a {
+  color: white;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+
+.nav-link {
+  display: flex;
+}
+
+.nav-link li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.start-title {
+  font-size: 32px;
+}
+
+.start-description {
+  font-size: 16px;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.title-portfolio {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flex-container img {
+  width: 30%;
+  max-height: 200px;
+  margin: 10px 0 14px;
+}
+
+.wrap {
+  display: flex;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.wrap p {
+  padding: 0 10px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.btn-download {
+  margin: 0;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-download i {
+  padding-right: 10px;
+}
+
+.star {
+  width: 200px;
+  height: 50px;
+}
+
+.content-contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.btn-padrao {
+  margin: 0;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #18bc9c;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+  width: 33.3333%;
+}
+
+.footer-container {
+  display: flex;
+  background-color: #2c3e50;
+}
+
+.footer-list {
+  display: inline-flex;
+  padding-left: 15px;
+  padding: 15px;
+}
+
+.footer-item {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  list-style: none;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer-location a {
+  color: #18bc9c;
+}
+
+.dados-final {
+  color: white;
+  background-color: #2c3e50;
+  display: flex;
+  justify-content: center;
+
+}
+
+
